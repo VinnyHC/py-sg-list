@@ -1,0 +1,11 @@
+# pipenv
+Pipfile.lock
+
+# Pycharm IDE
+.idea/
+
+# VS Code
+.vscode/
+
+# No csv in public repos
+*.csv
