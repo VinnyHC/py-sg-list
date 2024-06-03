@@ -2,6 +2,7 @@ import os
 import boto3
 import csv
 
+
 def describe_security_groups(session, region):
     ec2_client = session.client('ec2', region_name=region)
     response = ec2_client.describe_security_groups()
